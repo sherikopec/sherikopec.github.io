@@ -58,7 +58,7 @@ body {
 }
 
 .landingpage {
-    height: 700px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,13 +69,19 @@ body {
 .aboutme {
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 20px;
+}
+
+#placeholder:target {
+    top:-100px;
+    position:relative;
 }
 
 .aboutme p {
     padding: 30px;
     text-align: center;
     font-size: 25px;
+    margin-top: 50px;
 }
 
 .photo-grid-container {
