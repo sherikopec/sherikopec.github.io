@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+ /* not sure if I need this */
+body {
+    padding-top: 40px;
+}
+
+/* Paralax scrolling effect*/
+
+.paralax1 {
+    background: url('Images/Paralax1.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.paralax2 {
+    background: url('Images/Paralax2.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.paralax3 {
+    background: url('Images/Paralax3.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+/* Navbar */
+
+.navbar-custom {
+    background-color: hotpink;
+}
+
+.nav-link-custom {
+    font-size: 1.5em;
+}
+
+/* Landing page */
+
+.landingpage h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+    color: black;
+    padding: 40px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.landingpage {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* About me section */
+
+.aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.aboutme p {
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 50px;
+}
+
+.photo-grid {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photo-grid-item img {
+    width: 220px;
+    height:220px;
+    border-radius: 150px;
+}
+
+/* Portfolio */
+
+.card-title-custom {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-block {
+    padding: 0px 20px;
+}
+
+.portfolio {
+    padding: 25px;
+}
+
+/* Contact section - Form */
+
+.contact-form {
+    width:400px;
+    text-align:center;
+  }
+
+  input,textarea{
+    width:100%;
+    line-height:1.5;
+    margin:10px;
+    text-align:center;
+    font-size:18px;
+  }
+
+  button{
+    background-color: darkgreen;
+    color:mediumspringgreen;
+    border-style:none;
+    padding:20px;
+    margin:10px;
+    text-transform:uppercase;
+    font-weight:600;
+    border-radius:10px;
+    font-size:20px;
+  }
+
+/* Contact section - Socials */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+.footer ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer li img {
+    margin: 20px;
+}
