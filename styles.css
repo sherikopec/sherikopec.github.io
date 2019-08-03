@@ -66,11 +66,15 @@ body {
 
 /* About me section */
 
-.aboutme {
-    display: flex;
+.aboutme-wrapper {
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 20px;
+}
+
+#placeholder:target {
+    top:-100px;
+    position:relative;
 }
 
 .aboutme p {
@@ -100,6 +104,13 @@ body {
 }
 
 /* Portfolio */
+.card-custom {
+
+}
+
+.card-img-top {
+    width: 100px;
+}
 
 .card-title-custom {
     text-align: center;
