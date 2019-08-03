@@ -105,12 +105,8 @@ body {
 }
 
 /* Portfolio */
-.card-custom {
-
-}
-
 .card-img-top {
-    width: 100px;
+    width: 300px;
 }
 
 .card-title-custom {
