@@ -78,10 +78,10 @@ body {
 }
 
 .aboutme p {
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     font-size: 25px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .photo-grid-container {
@@ -138,8 +138,8 @@ body {
   }
 
   button{
-    background-color: darkgreen;
-    color:mediumspringgreen;
+    background-color: hotpink;
+    color: black;
     border-style:none;
     padding:20px;
     margin:10px;
