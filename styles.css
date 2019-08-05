@@ -53,15 +53,13 @@ body {
     font-size: 100px;
     font-weight: bolder;
     color: black;
-    padding: 40px;
     font-family: 'Roboto Mono', monospace;
 }
 
 .landingpage {
-    height: 600px;
-    display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px 0px;
 }
 
 /* About me section */
