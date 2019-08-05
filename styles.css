@@ -84,20 +84,6 @@ body {
     margin-top: 10px;
 }
 
-/*.photo-grid-container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin: 50px;
-}
-
-.photo-grid {
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}*/
-
 .photo-grid-item img {
     width: 220px;
     height:220px;
