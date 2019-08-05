@@ -22,6 +22,13 @@ body {
     height: 400px;
 }
 
+@media only screen and (max-width: 600px) {
+    .paralax1 {
+        background: url('Images/Paralax1.jpg') center;
+
+    }
+}
+
 .paralax2 {
     background: url('Images/Paralax2.jpg') no-repeat center;
     background-size: cover;
@@ -53,15 +60,13 @@ body {
     font-size: 100px;
     font-weight: bolder;
     color: black;
-    padding: 40px;
     font-family: 'Roboto Mono', monospace;
 }
 
 .landingpage {
-    height: 600px;
-    display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px 0px;
 }
 
 /* About me section */
