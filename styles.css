@@ -84,7 +84,7 @@ body {
     margin-top: 10px;
 }
 
-.photo-grid-container {
+/*.photo-grid-container {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -96,12 +96,17 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-}
+}*/
 
 .photo-grid-item img {
     width: 220px;
     height:220px;
     border-radius: 150px;
+}
+
+.photo-grid-item {
+    justify-content: center;
+    padding-bottom: 40px;
 }
 
 /* Portfolio */
