@@ -84,24 +84,15 @@ body {
     margin-top: 10px;
 }
 
-.photo-grid-container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin: 50px;
-}
-
-.photo-grid {
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
 .photo-grid-item img {
     width: 220px;
     height:220px;
     border-radius: 150px;
+}
+
+.photo-grid-item {
+    justify-content: center;
+    padding-bottom: 40px;
 }
 
 /* Portfolio */
@@ -123,6 +114,10 @@ body {
 }
 
 /* Contact section - Form */
+
+.container {
+    padding: 15px;
+}
 
 .contact-form {
     width:500px;
@@ -149,20 +144,8 @@ body {
     font-size:20px;
   }
 
-/* Contact section - Socials */
+  /* Footer */
 
-.footer {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100px;
-}
-
-.footer ul {
-    list-style-type: none;
-    display: flex;
-}
-
-.footer li img {
-    margin: 20px;
-}
+  .col-custom {
+      padding: 30px;
+  }

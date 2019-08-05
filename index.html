@@ -3,6 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Sheridan Kopec</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
@@ -11,7 +12,7 @@
     <body>
         
         <!--Nav bar-->
-        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-custom">
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top navbar-custom">
             <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-nav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -52,20 +53,23 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque iure temporibus non laudantium excepturi ipsum harum sint tempore sequi nihil veritatis vel ut commodi atque beatae quo, consequatur veniam voluptatem?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque iure temporibus non laudantium excepturi ipsum harum sint tempore sequi nihil veritatis vel ut commodi atque beatae quo, consequatur veniam voluptatem?</p>
                 </div>
 
-                <div class="photo-grid-container">
-                    <div class="photo-grid">
+                <div class="row">
+                    <div class="col-lg-4 col-sm col-center">
                         <div class="photo-grid-item">
-                            <img src="Images/aboutme_pic1.jpg" alt="Camping in the Kimberley with friends">
+                            <img src="Images/aboutme_pic1.jpg" class="mx-auto d-block" alt="Camping in the Kimberley with friends">
                         </div>
+                    </div>
+                    <div class="col-lg-4 col-sm col-center">
                         <div class="photo-grid-item">
-                            <img src="Images/aboutme_pic2.jpg" alt="Super cute chocolate labrador at the beach">
+                            <img src="Images/aboutme_pic2.jpg" class="mx-auto d-block" alt="Super cute chocolate labrador at the beach">
                         </div>
+                    </div>
+                    <div class="col-lg-4 co;-sm col-center">
                         <div class="photo-grid-item">
-                            <img src="Images/aboutme_pic3.jpg" alt="Street Roller Hockey team">
+                            <img src="Images/aboutme_pic3.jpg" class="mx-auto d-block" alt="Street Roller Hockey team">
                         </div>
-                  </div>
+                    </div>
                 </div>
-            </div>
 
 <!-- Paralax scroll-->
 
@@ -77,10 +81,19 @@
             <div class="row">
                 <div class="col-md-6 col-lg-4 mt-5">
                     <div class="card text-center">
-                        <img src="Images/shecodes.png" class="card-img-top img-fluid mx-auto d-block">
+                        <a href="https://shecodes.com.au/plus/"><img src="Images/shecodes.png" class="card-img-top img-fluid mx-auto d-block"></a>
                             <div class="card-block">
                                 <h3 class="card-title card-title-custom">She Codes Plus</h3>
                                 <p>The Plus course is a collaboration between She Codes and BHP to provide an alternate pathway for women to enter tech careers. Participants undertake four unique projects focussed on building an enterprise web application using HTML/CSS, Python, Django and React JS. With over 250 applications for the program, I was lucky enough to gain one of the 25 positions available in the 2019 program!</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-5">
+                    <div class="card h-100 text-center">
+                        <a href="https://github.com/sherikopec"><img src="Images/github.png" class="card-img-top img-fluid mx-auto d-block"></a>
+                            <div class="card-block">
+                                <h3 class="card-title card-title-custom">Git Hub Projects</h3>
+                                <p>GitHub brings together the world’s largest community of developers to discover, share, and build better software. Check out my side projects on Git Hub!</p>
                             </div>
                     </div>
                 </div>
@@ -91,16 +104,6 @@
                                 <h3 class="card-title card-title-custom">She Codes Plus</h3>
                                 <p>The Plus course is a collaboration between She Codes and BHP to provide an alternate pathway for women to enter tech careers. Participants undertake four unique projects focussed on building an enterprise web application using HTML/CSS, Python, Django and React JS. With over 250 applications for the program, I was lucky enough to gain one of the 25 positions available in the 2019 program!</p>
                             </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mt-5">
-                    <div class="card text-center">
-                        <img src="Images/shecodes.png" class="card-img-top img-fluid mx-auto d-block">
-                            <div class="card-block">
-                                <h3 class="card-title card-title-custom">She Codes Plus</h3>
-                                <p>The Plus course is a collaboration between She Codes and BHP to provide an alternate pathway for women to enter tech careers. Participants undertake four unique projects focussed on building an enterprise web application using HTML/CSS, Python, Django and React JS. With over 250 applications for the program, I was lucky enough to gain one of the 25 positions available in the 2019 program!</p>
-                            </div>
-
                     </div>
                 </div>
             </div>
@@ -118,8 +121,8 @@
                     <div class="contact-form">
                         <h1> Contact </h1>
                         <form method="POST" action="https://formspree.io/sherikopec@gmail.com">
-                        <input type="name" name="name" placeholder="name">
-                        <input type="email" name="email" placeholder="email address">
+                        <input type="name" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email address">
                         <textarea name="message" placeholder="How can I help you?"></textarea>
                         <button type="submit">SEND</button>
                         </form>
@@ -128,14 +131,15 @@
             </div>
         </div>
 
-<!--Socials in footer-->
-        <footer class="footer">
-            <ul>
-                <li><img src="Socials/greygithub.png" alt="Link to Github" width="40px" height="40px"></li>
-                <li><img src="Socials/greylinkedin.png" alt="Link to Linkedin" width="40px" height="40px"></li>
-                <li><img src="Socials/greyemail.png" alt="Link to email" width="40px" height="40px"></li>
-            </ul>
-        </footer>
+    <!-- Footer-->
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col col-custom">
+                <p class="text-center">Copyright &copy; 2019 Sheridan Kopec. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
