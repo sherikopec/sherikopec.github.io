@@ -25,7 +25,7 @@ body {
 @media only screen and (max-width: 600px) {
     .paralax1 {
         background: url('Images/Paralax1.jpg') center;
-
+        height: 200px;
     }
 }
 
@@ -36,11 +36,25 @@ body {
     height: 400px;
 }
 
+@media only screen and (max-width: 600px) {
+    .paralax2 {
+        background: url('Images/Paralax2.jpg') center;
+        height: 200px;
+    }
+}
+
 .paralax3 {
     background: url('Images/Paralax3.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+    .paralax3 {
+        background: url('Images/Paralax3.jpg') center;
+        height: 200px;
+    }
 }
 
 /* Navbar */
@@ -58,14 +72,18 @@ body {
 .landingpage h1{
     text-align: center;
     font-size: 100px;
+    padding-top: 100px;
     font-weight: bolder;
     color: black;
     font-family: 'Roboto Mono', monospace;
 }
 
-.landingpage {
-    justify-content: center;
+.container-landing{
+    height:500px;
     align-items: center;
+}
+
+.landingpage {
     padding: 40px 0px;
 }
 
