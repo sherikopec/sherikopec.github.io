@@ -22,13 +22,6 @@ body {
     height: 400px;
 }
 
-@media only screen and (max-width: 600px) {
-    .paralax1 {
-        background: url('Images/Paralax1.jpg') center;
-        height: 200px;
-    }
-}
-
 .paralax2 {
     background: url('Images/Paralax2.jpg') no-repeat center;
     background-size: cover;
@@ -36,25 +29,11 @@ body {
     height: 400px;
 }
 
-@media only screen and (max-width: 600px) {
-    .paralax2 {
-        background: url('Images/Paralax2.jpg') center;
-        height: 200px;
-    }
-}
-
 .paralax3 {
     background: url('Images/Paralax3.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 400px;
-}
-
-@media only screen and (max-width: 600px) {
-    .paralax3 {
-        background: url('Images/Paralax3.jpg') center;
-        height: 200px;
-    }
 }
 
 /* Navbar */
@@ -172,3 +151,36 @@ body {
   .col-custom {
       padding: 30px;
   }
+
+  /* Responsive */
+
+  @media screen and (max-width: 600px) {
+    .paralax1 {
+        background: url('Images/Paralax1.jpg') center;
+        height: 200px;
+    }
+    .paralax2 {
+        background: url('Images/Paralax2.jpg') center;
+        height: 200px;
+    }
+    .paralax3 {
+        background: url('Images/Paralax3.jpg') center;
+        height: 200px;
+    }
+    .landingpage h1 {
+        font-size: 50px;
+        padding-top: 0px;
+    }
+    .container-landing {
+        height: 300px;
+    }
+    .landingpage {
+        padding: 0px;
+    }
+    .aboutme p {
+        font-size: 15px;
+    }
+    .card-img-top {
+        width: 200px;
+    }
+}
