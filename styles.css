@@ -82,13 +82,13 @@ body {
 .aboutme p {
     padding: 10px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
 .photo-grid-item img {
-    width: 220px;
-    height:220px;
+    width: 200px;
+    height:200px;
     border-radius: 150px;
 }
 
@@ -123,7 +123,6 @@ body {
 
 .contact-form {
     width:500px;
-    text-align:center;
   }
 
   input,textarea{
