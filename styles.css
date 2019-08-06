@@ -121,12 +121,12 @@ body {
     padding: 15px;
 }
 
-.contact-form {
+/*.contact-form {
     width:500px;
-  }
+  }*/
 
   input,textarea{
-    width:100%;
+    width:100%;;
     line-height:1.5;
     margin:10px;
     text-align:center;
