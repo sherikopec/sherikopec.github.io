@@ -172,6 +172,8 @@ body {
     }
     .container-landing {
         height: 300px;
+        width:100%;
+        margin: 0px;
     }
     .landingpage {
         padding: 0px;
