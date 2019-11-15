@@ -74,6 +74,10 @@ body {
     padding-top: 20px;
 }
 
+.aboutme-text {
+    padding: 25px;
+}
+
 #placeholder:target {
     top:-100px;
     position:relative;
@@ -185,3 +189,72 @@ body {
         width: 200px;
     }
 }
+
+/* Typewriter */
+
+.typewriter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.typewriter {
+    display: flex;
+    height: 200px;
+    width: auto;
+    align-items: center;
+}
+
+.typewriter h1 {
+    font-size: 50px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+/* .progressbar-container {
+    background-color: yellow;
+    display: flex;
+    height: 200px; */
+/* } */
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressbar-container {
+    width: 50%;
+    
+}
+
+.progress {
+    margin: 20px;
+    height: 30px;
+}
+
+.progress-bar {
+    background: rgb(122,163,245);
+    background: linear-gradient(90deg, rgba(122,163,245,1) 0%, rgba(93,206,237,1) 39%, rgba(92,237,156,1) 100%);
+    font-size: 25px;
+}
+
