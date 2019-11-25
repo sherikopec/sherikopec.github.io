@@ -12,6 +12,7 @@
     <body>
         
         <!--Nav bar-->
+
         <nav class="navbar navbar-expand-sm navbar-light fixed-top navbar-custom">
             <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-nav">
                 <span class="navbar-toggler-icon"></span>
@@ -21,10 +22,10 @@
 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-custom" href="#landingpage"><strong>Home</strong></a>
+                        <a class="nav-link nav-link-custom" href="#home"><strong>Home</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-custom" href="#placeholder"><strong>About</strong></a>
+                        <a class="nav-link nav-link-custom" href="#about-me"><strong>About</strong></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav-link-custom" href="#portfolio"><strong>Portfolio</strong></a>
@@ -36,46 +37,81 @@
             </div>
         </nav>
 
-<!-- Home page-->   
-        <div class="landingpage" id="landingpage">  
-            <div class="row container-landing">
-                    <h1 class="col">Hey, I'm Sheridan Kopec</h1>
+        <!--Typewriter-->
+
+        <div id="home"></div>
+        <div class="typewriter-container">
+            <div class="typewriter">
+                <h1>Hey, I'm Sheridan</h1>
             </div>
         </div>
-<!-- Paralax scroll-->
+        <!-- Paralax scroll-->
         <div class="row">
             <div class="col paralax1">
                 <div class="paralax1"></div>
             </div>
         </div>
-<!--About me section-->
-        <div id="placeholder"></div>    
 
+        <!--About me section-->
+
+        <div id="about-me"></div>    
             <div class="aboutme" id="aboutme">
-
                 <div class="aboutme-text">
-                    <p>I am incredibly excited to transition into a career in tech. After four years as a high school teacher, I have learnt valuable skills such as developing well crafted learning content, an abundant amount of patience, and the ability to organise and motive the <strike>walking dead</strike> teenagers! I love problem solving, and the logical/procedural nature of computer programming has inspired the jump into tech.</p>
+                    <p>I am excited to transition into a career in software development. After four years as a high school teacher, I have learnt valuable skills such as developing well crafted learning content, an abundant amount of patience, and the ability to organise and motive <strike> the walking dead</strike> teenagers! I am also an Officer Cadet in the Australian Army Reserves, and I enjoy the challenges and opportunities that this presents.</p> 
+                    <div class="row">
+                        <div class="col-lg-4 col-sm col-center">
+                            <div class="photo-grid-item">
+                                <img src="Images/aboutme_pic1.jpg" class="mx-auto d-block" alt="Camping in the Kimberley with friends">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm col-center">
+                            <div class="photo-grid-item">
+                                <img src="Images/aboutme_pic2.jpg" class="mx-auto d-block" alt="Super cute chocolate labrador at the beach">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 co;-sm col-center">
+                            <div class="photo-grid-item">
+                                <img src="Images/aboutme_pic3.jpg" class="mx-auto d-block" alt="Street Roller Hockey team">
+                            </div>
+                        </div>
+                    </div>
+                    <p>I love solving problems in a logical and procedural manner, which is what initially drew me to coding. As a participant of the She Codes Plus program, I have learnt about various programming languages and frameworks, coding best practice and Git. My favourite programming language is Python because it's syntaxt is simple and efficient, yet extremely powerful.</p>
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-4 col-sm col-center">
-                        <div class="photo-grid-item">
-                            <img src="Images/aboutme_pic1.jpg" class="mx-auto d-block" alt="Camping in the Kimberley with friends">
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm col-center">
-                        <div class="photo-grid-item">
-                            <img src="Images/aboutme_pic2.jpg" class="mx-auto d-block" alt="Super cute chocolate labrador at the beach">
-                        </div>
-                    </div>
-                    <div class="col-lg-4 co;-sm col-center">
-                        <div class="photo-grid-item">
-                            <img src="Images/aboutme_pic3.jpg" class="mx-auto d-block" alt="Street Roller Hockey team">
-                        </div>
+        <!--Progress bars-->
+
+        <div class="skill-container">
+            <div class="progressbar-container">
+                <!-- <h2>Google confidence</h2> -->
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                        <span>HTML/CSS</span>
                     </div>
                 </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                        <span>Django</span>
+                    </div>
+                </div>
+                <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            <span>Python</span>
+                        </div>
+                    </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                        <span>React</span>
+                    </div>
+                </div>
+                <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+            </div>
+        </div>
 
-<!-- Paralax scroll-->
+        <!-- Paralax scroll-->
 
         <div class="row">
             <div class="col paralax2">
@@ -83,7 +119,7 @@
             </div>
         </div>
 
-<!--Portfolio section-->
+        <!--Portfolio section-->
 
         <div class="portfolio" id="portfolio">
             <div class="row">
@@ -117,7 +153,7 @@
             </div>
         </div>
     
-<!-- Paralax scroll-->
+        <!-- Paralax scroll-->
 
         <div class="row">
             <div class="col paralax3">
@@ -125,7 +161,7 @@
             </div>
         </div>
 
-<!--Contact section-->
+        <!--Contact section-->
 
         <div class="container" id="contact">
             <div class="row justify-content-center">
@@ -143,15 +179,15 @@
             </div>
         </div>
 
-    <!-- Footer-->
+        <!-- Footer-->
 
-    <footer class="container-fluid">
-        <div class="row">
-            <div class="col col-custom">
-                <p class="text-center">Copyright &copy; 2019 Sheridan Kopec. All rights reserved.</p>
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col col-custom">
+                    <p class="text-center">Copyright &copy; 2019 Sheridan Kopec. All rights reserved.</p>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
